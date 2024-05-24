@@ -141,12 +141,9 @@ int main() {
 //   return 0;
 // }
 
-
-
-
-#include <string>
-#include <iostream>
-using namespace std; 
+// #include <string>
+// #include <iostream>
+// using namespace std; 
 
 
 // int main() {
@@ -179,13 +176,121 @@ using namespace std;
 // }
 
 
-int main() {
-  int i = 0;
-  while (i < 5) {
-    cout << i << "\n";
-    i++;
-  }
+// int main() {
+//   int i = 0;
+//   while (i < 5) {
+//     cout << i << "\n";
+//     i++;
+//   }
 
-  return 0;
+//   return 0;
+// }
+
+// int main() {
+
+//   string people[4] = {"Harry", "nuts", "with", "cheese"};
+
+//   for (int i = 0; i < 4; i++){
+//     cout << people[i] << endl;
+//   }
+
+//   cout << "\n" << "-----------------------" << "\n";
+
+//   for (string person : people) {
+//     cout << person << endl;
+//   }
+
+//   cout << "\n" << "-----------------------" << "\n";
+
+// }
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+
+//   string cars[5];
+//   cars[0] = "Volvo";
+//   cars[1] = "BMW";
+
+//   for (string car : cars) {
+//     cout << car << endl;
+//   }
+
+// }
+
+// #include <iostream>
+// using namespace std;
+
+// int main () {
+
+//   int houseNumbers[5][3][4] = {
+//     {
+//       {1, 2, 3, 4},
+//       {5, 6, 7, 8},
+//       {9, 9, 9, 9},
+//     },
+//     {
+//       {1, 2, 3, 4},
+//       {5, 6, 7, 8},
+//       {9, 9, 9, 9},
+//     },
+//     {
+//       {1, 2, 3, 4},
+//       {5, 6, 7, 8},
+//       {9, 9, 9, 9},
+//     },
+//     {
+//       {1, 2, 3, 4},
+//       {5, 6, 7, 8},
+//       {9, 9, 9, 9},
+//     },
+//     {
+//       {1, 2, 3, 4},
+//       {5, 6, 7, 8},
+//       {9, 9, 9, 9},
+//     }
+//   };
+
+//   for (int i = 0; i < 5; i++) {
+//     for (int j = 0; j < 3; j++) {
+//       for (int k = 0; k < 4; k++) {
+//         cout << houseNumbers[i][j][k] << endl;
+//       }
+//     }
+//   }
+
+// }
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+
+//   struct {
+//     string name;
+//     int age;
+//   } personOne, personTwo;
+
+//   personOne.name = "Aaron";
+//   personOne.age = 30;
+
+//   personTwo.name = "Kelsea";
+//   personTwo.age = 36;
+
+//   cout << personOne.name << " is " << personOne.age << " years old." << endl;
+//   cout << personTwo.name << " is " << personTwo.age << " years old." << endl;
+// }
+
+
+#include <iostream>
+using namespace std;
+
+void myFunction(string name) {
+  cout << "Your name is: " << name;
 }
 
+int main() {
+  myFunction("Bobby Boy");
+}
